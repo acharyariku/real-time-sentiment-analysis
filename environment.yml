@@ -1,0 +1,11 @@
+name: torchenv
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.2.1
+  - torchtext=0.17.1
+  - numpy
+  - portalocker
